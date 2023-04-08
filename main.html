@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primevedio</title>
+    <link rel="icon" href="../Images/ottlogo.jpg">
+    <style>
+         .width{
+           width:320px;
+           height:30px;
+           position: relative;
+           top:20px
+         }
+        .title{
+            display:flex;
+            flex-direction: row;
+            gap:30px;
+            position: fixed;
+            left:300px;
+            color:white;
+
+        }
+        .nav{
+            display:flex;
+            gap:20px;
+            position:fixed;
+            left:1050px;
+            top:40px;
+        }
+        .header{
+            background: fixed;
+            background-color: aqua;
+        }
+        .welcome{
+            position:relative;
+            top:180px;
+            left:200px;
+           background-image: url(../Images/online.jfif);
+           background-repeat:no-repeat;
+           background-size:1100px;
+           height:600px;
+        }
+        .signin{
+            display: flex;
+            flex-direction: column;
+            position:relative;
+            left:800px;
+            bottom:350px;
+        }
+        .a{
+            position: relative;
+            left:160px;
+            top:20px;
+            font-size: 20px;
+
+        }
+       .h1{
+            position: relative;
+        top:300px 
+        }
+       .moviespic{
+        display: flex;
+        gap:10px;
+        position: relative;
+        top:300px;
+        left:150px;
+
+       }
+       img{
+        transition: transition 2s;
+       }
+       img:hover{
+        transform: scale(2);
+       }
+       .kamal{
+        position:relative;
+        bottom:100px
+       }
+       .thalaivar{
+        position: relative;
+        top:270px
+       }
+       .dhanush{
+        position: relative;
+        top:290px
+       }
+       #bg{
+        background-color: grey;
+       }
+       body{
+        background-color: rgb(47, 59, 71);
+       }
+   @media (max-width : 800px){
+    body{
+      display: 
+        "title"
+        "nav"
+        "welcome"
+        "sigin"
+        "kamal"
+        "moviespic"
+        "thalaivar"
+        "moviespic"
+        "dhanush"
+        "moviepic"
+        ;
+    }
+   }
+   .tamilactors{
+    position:relative;
+    top:370px
+   }
+   .Malayalamactors{
+    position:relative;
+    left:400px;
+    top:215px;
+   }
+   .Kanadaactors{
+    position:relative;
+    left:800px;
+    top:62px;
+   }
+   .Teluguactors{
+    position: relative;
+    left:1250px;
+    bottom:108px
+   }
+    </style>
+<body>
+    <header class="title">
+        <img src="../Images/ottlogo.jpg" width="70px" height="70px" >
+        <h1><b>primevedio</b></h1>
+        <input type="text" placeholder="search..." class="width">
+    </header>
+    <header class="nav">
+   Loaction
+        <select name="dropdown"><b style="color: white;">Location</b>
+            <option value="Chennai"id="pic">Chennai</option>
+            <option value="Madurai"  id="pic">Madurai</option>
+            <option value="Coimbatore"  id="pic">Coimbatore</option>
+            <option value="Salem"  id="pic">Salem</option>
+            <option value="Virudhunagar"  id="pic">Virudhunagar</option>
+
+        </select>
+        <a href="signin.html">Login/Sign-Up</a>
+    </header>
+    <div class="welcome"></div>
+    <div class="signin">
+        <h1>Welcome to primevedio</h1>
+        <h2>Watch the movies free by join our community.</h2>
+        <a href="signin.html" class="a">Signin</a>
+    </div>  
+    <div class="kamal">  
+        <h1 class="h1"><b style="font-size: 50px; color: dodgerblue;">Recommended movies</b></h1>
+     <h1 class="h1" id="bg" style="color: whitesmoke;"><b style="color:dodgerblue">Prime-</b>KamalHassan masterpiece...</h1>
+        <div class="moviespic">
+            <img src="../Images/Anbe-Sivam.jpg" width="180px" height="200px">
+            <img src="../Images/virumandi1.webp" width="180px" height="200px">
+            <img src="../Images/panchadhandhiram.jpg" width="180px" height="200px">
+            <img src="../Images/dasavadharam.jpg" width="180px" height="200px">
+            <img src="../Images/Vishwaroopam2.jpg" width="180px" height="200px">
+            <img src="../Images/nayakan.png" width="180px" height="200px">
+            <img src="../Images/marudhanagagam.jfif" width="180px" height="200px">
+            <img src="../Images/uthamavillan.jpg" width="180px" height="200px">
+            <img src="../Images/indian.jpg" width="180px" height="200px">
+        </div>
+        </div>
+        <h1 class="thalaivar" id="bg"><b style="color:dodgerblue">Prime -</b><b style="color:whitesmoke">Thalaivar Hit...</b></h1>
+        <div class="moviespic">
+            <img src="../Images/kaala.jfif" width="180px" height="200px">
+            <img src="../Images/pettta.jfif" width="180px" height="200px">
+            <img src="../Images/kabaali.jpg" width="180px" height="200px">
+            <img src="../Images/baasha.jpg" width="180px" height="200px">
+            <img src="../Images/padayappa.webp" width="180px" height="200px">
+            <img src="../Images/muthu.jfif" width="180px" height="200px">
+            <img src="../Images/annamalai.jfif" width="180px" height="200px">
+            <img src="../Images/enthiran.jfif" width="180px" height="200px">
+            <img src="../Images/darbar.jpg" width="180px" height="200px">
+        </div>
+        <h1 class="dhanush" id="bg"><b style="color:dodgerblue">Prime -</b> <b style="color: whitesmoke;">Dhanush blockbuster...</b></h1>
+        <div class="moviespic">
+            <img src="../Images/jagamae thandhiram.jfif" width="180px" height="200px">
+            <img src="../Images/nanae varuven.jfif" width="180px" height="200px">
+            <img src="../Images/maari.jfif" width="180px" height="200px">
+            <img src="../Images/karnan.jfif" width="180px" height="200px">
+            <img src="../Images/3.jfif" width="180px" height="200px">
+            <img src="../Images/vengai.jfif" width="180px" height="200px">
+            <img src="../Images/vip.jfif" width="180px" height="200px">
+            <img src="../Images/polladhavan.jfif" width="180px" height="200px">
+            <img src="../Images/vada chennai.jfif" width="180px" height="200px">
+            <img src="../Images/adukalam.jfif" width="180px" height="200px">
+        </div>
+        <div class="tamilactors">
+            <h2 style="color:white;font-size: 30px;">Pick the actors and enjoy the movies !!!</h2>
+            <h3 style="color:white;font-size: 25px;">Kollywood</h3>
+            <ul>
+                <li>AjithKumar</li>
+                <li>Vijay</li>
+                <li>Vikram</li>
+                <li>Surya</li>
+
+            </ul>
+        </div>
+        <div class="Malayalamactors">
+            <h3 style="color:white;font-size: 25px;">Mollywood</h3>
+            <ul>
+                <li>Mamooty</li>
+                <li>Mohanlal</li>
+                <li>PrithiviRaj</li>
+                <li>Nivin Pauly</li>
+
+            </ul>
+        </div>
+        <div class="Kanadaactors">
+            <h3 style="color:white;font-size: 25px;">Kannada Cinema</h3>
+            <ul>
+                <li>Puneeth RajKumar</li>
+                <li>Yaash</li>
+                <li>Shiva Rajkumar</li>
+                <li>Rishab Shetty</li>Kanadaactors
+
+            </ul>
+        </div>
+        <div class="Teluguactors">
+            <h3 style="color:white;font-size: 25px;">Tollywood</h3>
+            <ul>
+                <li>Ram Charan</li>
+                <li>Jr.NTR</li>
+                <li>Nani</li>
+                <li>Allu Arjun</li>Kanadaactors
+
+            </ul>
+        </div>
+    </body>
+    </html>
